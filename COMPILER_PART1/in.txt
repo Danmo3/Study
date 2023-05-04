@@ -1,0 +1,26 @@
+
+function goo(): char{
+  
+
+
+var x: char*;
+string y[10];
+var z: char;
+y = "foobar";
+x = &y[5]; /* x points to 'r' */
+z = *(x - 5); /* z is 'f' */
+y = "barfoo";
+
+   
+    return 'a';
+}
+
+
+
+
+
+
+
+
+
+
